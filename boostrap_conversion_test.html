@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>Bootstrap Conversion Test</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="jquery.simplemodal.js"></script>
+        <script src="base.js"></script>
+		<link href="base.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<div id="header">
+			<div id="site">
+				<h1>
+					<a href="#">Test Project Site</a>
+				</h1>
+			</div>
+
+			<div id="functions">
+				<ul>
+					<li><a href="#">My Profile</a></li>
+					<li><a href="#">Settings</a></li>
+					<li><a href="#">Logout</a></li>
+				</ul>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+		<div id="content">
+			<div id="sidebar">
+				<ul>
+					<li><a href="#">Tab One</a></li>
+					<li><a href="#">Tab Two</a></li>
+					<li><a href="#">Tab Three</a></li>
+					<li><a href="#">Tab Four</a></li>
+					<li><a href="#">Tab Five</a></li>
+				</ul>
+			</div>
+
+			<div id="panel">
+				<p>Here's some text for fun!</p>
+
+				<p>
+					<input id="clone_list" type="button" value="Clone List" />
+                    <input id="open_modal" type="button" value="Open Modal" />
+				</p>
+
+				<div class="list-of-things">
+				</div>
+			</div>
+		</div>
+
+		<div class="hidden-list-of-things">
+			<ul>
+				<li>one</li>
+				<li>two</li>
+				<li>three</li>
+				<li>four</li>
+				<li>five</li>
+			</ul>
+		</div>
+		
+		<div id="basic-modal-content">
+			<h3>Modal Dialog</h3>
+			<p>This is a modal dialog with a couple of random fields.</p>
+			<div class="field">
+				<label for="first_name">First Name</label>
+				<input id="first_name" type="text"/>
+			</div>
+			<div class="field">
+				<label for="last_name">Last Name</label>
+				<input id="last_name" type="text"/>
+			</div>
+			<div class="field">
+				<label for="first_car">First Car</label>
+				<select id="first_car">
+				  <option value="volvo">Volvo</option>
+				  <option value="saab">Saab</option>
+				  <option value="mercedes">Mercedes</option>
+				  <option value="audi">Audi</option>
+				</select>
+			</div>
+			<input id="close_modal" type="button" value="Close" />
+			
+		</div>
+		
+
+	</body>
+
+</haml>
