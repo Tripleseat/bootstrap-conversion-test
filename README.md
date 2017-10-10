@@ -7,3 +7,4 @@ Take this lackluster page and convert it to a default Bootstrap layout. This wil
 ## Tips
 * Feel free to remove as much of the existing code as possible
 * You will need to add the appropriate CSS and Javascript files
+* Make it look good!
